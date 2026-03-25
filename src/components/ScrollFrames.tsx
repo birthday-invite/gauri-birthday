@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const FRAME_COUNT = 115;
+const FRAME_COUNT = 200;
 
 const getFramePath = (index: number) => {
     const numStr = index.toString().padStart(3, '0');
     // Prefix image paths with the base URL configured in Vite
-    return `${import.meta.env.BASE_URL}frames/ezgif-frame-${numStr}.jpg`;
+    return `${import.meta.env.BASE_URL}frames_1/ezgif-frame-${numStr}.jpg`;
 };
 
 const ScrollFrames: React.FC = () => {

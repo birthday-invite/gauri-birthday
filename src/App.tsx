@@ -1,6 +1,5 @@
 import HeroSection from './components/HeroSection';
 import InfoSection from './components/InfoSection';
-import RSVPForm from './components/RSVPForm';
 import ScrollFrames from './components/ScrollFrames';
 
 
@@ -23,7 +22,6 @@ function App() {
       <main className="relative z-10 w-full max-w-4xl mx-auto pt-4">
         <HeroSection />
         <InfoSection />
-        <RSVPForm />
       </main>
 
       <footer className="w-full text-center py-6 pb-10 text-party-purple font-party text-2xl relative z-10 drop-shadow-md">

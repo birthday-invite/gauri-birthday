@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { User, Heart, MapPin } from 'lucide-react';
+import { User, Heart } from 'lucide-react';
 
 interface SectionProps {
     title: string;
@@ -99,25 +99,6 @@ const InfoSection: React.FC = () => {
                 "Drawing funny cartoons."
             ],
             color: "#C084FC"
-        },
-        {
-            title: "Party Venue & Time",
-            icon: <MapPin size={28} />,
-            content: [
-                "Date: Jan 24th",
-                "Time: 4 PM onwards",
-                <span key="loc">
-                    At: <a
-                        href="https://www.google.com/maps/search/?api=1&query=Best+Western+Plus+Portsmouth+Hotel+and+Suites+Portsmouth+Circle"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-white/50 hover:decoration-white hover:text-white transition-all font-bold"
-                    >
-                        Best Western Plus Portsmouth Hotel and Suites, Portsmouth Circle
-                    </a>
-                </span>
-            ],
-            color: "#FB923C"
         }
     ];
 
